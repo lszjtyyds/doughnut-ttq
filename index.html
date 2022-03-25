@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				margin: 0 auto;
+				width: 1500px;
+				/* height: 800px; */
+				background:whitesmoke;
+			}
+			header{
+				height: 100px;
+				background: lavenderblush;
+			}
+			h1,h2,h3{
+				display: inline-block;
+			}
+			h1{
+				margin-left: 40px;
+				margin-top: 30px;
+			}
+			h3 p{
+				display: inline-block;
+				margin-left: 200px;
+				margin-top: 20px;
+				background: white;
+			}
+			h2{
+				color: whitesmoke;
+				float: right;
+				background: black;
+				margin-right: 80px;
+				margin-top: 40px;
+			}
+			h2:hover{
+				cursor: pointer;
+				box-shadow: 0 5px 25px -10px grey;
+				transform: translateY(-3px);
+				transition: 0.8s;
+			}
+			main{
+				height: 500px;
+				/* background: skyblue; */
+				margin-top: 10px;
+			}
+			main article{
+				width: 68%;
+				height: 100%;
+				background: url(123.jpg);
+				display: inline-block;
+			}
+			#shipin{
+				padding-top: 20px;
+				padding-left: 215px;
+			}
+			#shougong{
+				padding-left: 390px;
+				color: lavenderblush;
+			}
+			#shougong u{
+				padding-left: 78px;
+				color: plum;
+			}
+			u:hover{
+				cursor: pointer;
+				box-shadow: 5px 5px 25px -10px grey;
+				transform: translateY(5px);
+				transition: 0.8s;
+			}
+			article:hover{
+				cursor: pointer;
+				box-shadow: 0 5px 25px -10px grey;
+				transform: translateY(-5px);
+				transition: 0.8s;
+			}
+			main aside{
+				width: 31%;
+				height: 100%;
+				/* background: springgreen; */
+				display: inline-block;
+				float: right;
+			}
+			.shang{
+				height: 49%;
+				background:tomato;
+				background: url(123.jpg);
+			}
+			.shang:hover{
+				cursor: pointer;
+				box-shadow: 0 5px 25px -10px grey;
+				transform: translateY(-5px);
+				transition: 0.8s;
+			}
+			#wz1{
+				padding-top: 85px;
+				padding-left: 160px;
+			}
+			#wz2{
+				padding-left: 180px;
+			}
+			.xia{
+				height: 49%;
+				background: olive;
+				margin-top: 10px;
+				background: url(888.jpg);
+			}
+			.xia:hover{
+				cursor: pointer;
+				box-shadow: 0 5px 25px -10px grey;
+				transform: translateY(-5px);
+				transition: 0.8s;
+			}
+			footer{
+				height: 300px;
+				background: darkgoldenrod;
+				margin-top: 10px;
+				background: url(ttq1.jpeg);
+			}
+			#jio{
+				margin-left: 22px;
+			}
+			#box41{
+							width: 270px;
+							height: 260px;
+							display: inline-block;
+							margin-top: 17px;
+							margin-left: 10px;
+							box-shadow: 5px 5px 5px bisque;
+						}
+			#box41:hover{
+							transform: scale(1.03);
+							opacity: 0.8;
+							display: inline-block;
+							margin-top: 15px;
+							margin-left: 10px;
+							box-shadow: 5px 5px 5px bisque;
+							transition: 0.8s;
+						}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>🍥 Long doughnut 🍥</h1>
+			<h3>
+				<p>主页</p>
+				<p>我们的评价</p>
+				<p>联系我们</p>
+			</h3>
+			<h2>立即下单</h2>
+		</header>
+		<main>
+			<article>
+				<div id="shipin">
+					<video src="bbbs.mp4" autoplay loop width="600px"></video>
+				</div>
+				<div id="shougong">
+					<p style=" font-size: 28px;">纯手工制作的甜甜圈</p>
+					<p style=" font-size: 28px;">十年热爱，始终如一</p>
+					<u style=" font-size: 25px;">查看更多</u>
+				</div>
+			</article>
+			<aside>
+				<div class="shang">
+					<div id="wz1">
+						<p style=" font-size: 30px;">更多商品</p>
+					</div>
+					<div id="wz2">
+						<u style=" font-size: 20px; color: lightseagreen">查看更多</u>
+					</div>
+				</div>
+				<div class="xia">
+					<div id="wz1">
+						<p style=" font-size: 30px;">关于我们</p>
+					</div>
+					<div id="wz2">
+						<u style=" font-size: 20px; color: lightseagreen;">查看更多</u>
+					</div>		
+				</div>
+			</aside>
+		</main>
+		<footer>
+			<div id="jio">
+				<div style="width: 100%;height: 250px;<!-- background: #2E8B57; -->">
+								<div id="box41" style="vertical-align: top;">
+									<label for="xm">姓名：</label>
+											<input id="xm" typle="text" name="xm" placeholder="请输入姓名"required/><br><br>
+											性别:
+											<input id="xs" type="radio" name="xb" value="先生" />
+											<label for="xs">先生</label>
+											<input id="ns" type="radio" name="xb" value="女士" />
+											<label for="ns">女士</label><br><br>
+											<input type="text" name="mz" id="mz" required /><br><br>
+											<label for="jtzz">家庭住址：</label>
+											<input type="text" name="jtzz" id="jtzz"  /><br><br>
+											<label for="dh">联系电话：</label>
+											<input type="password" name="dh" id="dh" placeholder="请输入您的号码" required/>
+											<br><br>
+											<label for="QQ">您的QQ：</label>
+											<input type="password" name="QQ" id="QQ" placeholder="请输入您的QQ"
+											required/><br><br><br><br><br><br><br><br><br><br><br><br><br>
+								</div>
+								<img src="qq2.jpeg"id="box41" >
+								<div id="box41"style="vertical-align: top; ">
+									<p style=" font-size: 30px; color: whitesmoke; padding-top: 70px ; padding-left: 48px;">亲手制作DIY</p>
+									<p style=" font-size: 26px; color: whitesmoke; padding-left: 15px;">任意定制风格甜甜圈</p>
+									<u style=" font-size: 20px; color: whitesmoke; padding-left: 94px; padding-top: 60px;"><a href=" peterpandonuts.com)
+
+
+">查看更多</a></u>
+								</div>
+								<img src="qq1.jpeg"id="box41" >
+								<img src="qq3.jpeg"id="box41" >
+							</div>
+
+			</div>
+		</footer>
+	</body>
+</html>
